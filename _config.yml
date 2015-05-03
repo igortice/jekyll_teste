@@ -1,5 +1,5 @@
 # Site settings
-title: Blog Igor Rocha
+title: Igor Rocha - Web Developer
 email: igortice@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Blog Igor Rocha Web Developer
@@ -10,3 +10,10 @@ github_username:  igortice
 
 # Build settings
 markdown: kramdown
+
+exclude:
+  - "Gruntfile.coffee"
+  - "node_modules"
+  - "package.json"
+  - "bower_components"
+  - "bower.json"
